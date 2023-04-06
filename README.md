@@ -38,7 +38,7 @@ Logging into Azure and creating our resources and virtual machines should be our
 <img src="https://i.imgur.com/2vy8qa6.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-After creating our resources the next step is to Install wireshark within our VM 1.
+After creating our resources the next step is to Install wireshark within our VM 1(Windows 10).
 </p>
 <br />
 
@@ -47,7 +47,7 @@ After creating our resources the next step is to Install wireshark within our VM
 </p>
 <p>
 Open Wireshark and filter for ICMP traffic only.
-Retrieve the private IP address of VM 2 and attempt to ping it from within VM 1.
+Retrieve the private IP address of VM 2(Ubuntu Server 20.04) and attempt to ping it from within VM 1(Windows 10).
 Observe ping requests and replies within WireShark.
 
 </p>
